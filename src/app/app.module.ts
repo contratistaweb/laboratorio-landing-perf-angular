@@ -17,6 +17,7 @@ import { CustomersComponent } from './components/customers/customers.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import {TimeAgoPipe} from "./pipes/time-ago.pipe";
+import { ImgComponent } from './components/img/img.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import {TimeAgoPipe} from "./pipes/time-ago.pipe";
     CustomersComponent,
     ContactComponent,
     HomeComponent,
-    TimeAgoPipe
+    TimeAgoPipe,
+    ImgComponent
   ],
   imports: [
     BrowserModule,
